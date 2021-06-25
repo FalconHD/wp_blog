@@ -1,0 +1,16 @@
+{
+    "htaccess": {
+        "baseName": "source_site_htaccess",
+        "source": ".htaccess",
+        "stored": "source_site_htaccess",
+        "mode": "copy",
+        "isRelative": true
+    },
+    "wpconfig": {
+        "baseName": "source_site_wpconfig",
+        "source": "wp-config.php",
+        "stored": "source_site_wpconfig",
+        "mode": "copy",
+        "isRelative": true
+    }
+}

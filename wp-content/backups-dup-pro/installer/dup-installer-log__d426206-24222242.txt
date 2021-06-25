@@ -1,0 +1,739 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 10:58:28
+* VERSION: 4.0.2.2
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: WINNT                                 |WINNT
+PHP VERSION_________: 8.0.2                                 |8.0.6
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.0.6 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/8.0.6
+DOC ROOT____________: "C:/xampp/htdocs/wp"
+LOG FILE 644________: false
+REQUEST URL_________: "http://localhost/wp/dup-installer/main.installer.php"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[cpnl-dbaction]
+********************************************************************************
+If start step 0 C:/xampp/htdocs/wp
+INSTALLER INFO
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/xampp/htdocs/wp"
+URL_NEW_____________: "http://localhost/wp"
+********************************************************************************
+
+--------------------------------------
+ARCHIVE INFO
+--------------------------------------
+ARCHIVE NAME________: "C:/xampp/htdocs/wp/alllo2_[HASH]_20210624222242_archive.zip"
+ARCHIVE SIZE________: 41.16MB
+CREATED_____________: 2021-06-24 22:22:42
+WP VERSION__________: 5.7.2
+DUP VERSION_________: 4.0.2.2
+DB VERSION__________: 10.4.17
+DB FILE SIZE________: 5MB
+DB TABLES___________: 17
+DB ROWS_____________: 2347
+URL HOME____________: http://localhost/wordpress
+URL CORE____________: http://localhost/wordpress
+URL CONTENT_________: http://localhost/wordpress/wp-content
+URL UPLOAD__________: http://localhost/wordpress/wp-content/uploads
+URL PLUGINS_________: http://localhost/wordpress/wp-content/plugins
+URL MU PLUGINS______: http://localhost/wordpress/wp-content/mu-plugins
+URL THEMES__________: http://localhost/wordpress/wp-content/themes
+PATH HOME___________: C:/xampp/htdocs/wordpress
+PATH ABS____________: C:/xampp/htdocs/wordpress
+PATH WPCONFIG_______: C:/xampp/htdocs/wordpress
+PATH WPCONTENT______: C:/xampp/htdocs/wordpress/wp-content
+PATH UPLOADS________: C:/xampp/htdocs/wordpress/wp-content/uploads
+PATH PLUGINS________: C:/xampp/htdocs/wordpress/wp-content/plugins
+PATH MUPLUGINS______: C:/xampp/htdocs/wordpress/wp-content/mu-plugins
+PATH THEMES_________: C:/xampp/htdocs/wordpress/wp-content/themes
+***  PLUGINS ***
+PLUGIN [SLUG:akismet/akismet.php                               ][ON:false]  Akismet Anti-Spam
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ]  Duplicator Pro
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:elementor-pro/elementor-pro.php                   ][ON:true ]  Elementor Pro
+PLUGIN [SLUG:essential-addons-for-elementor-lite/essential_adons_elementor.php][ON:false]  Essential Addons for Elementor
+PLUGIN [SLUG:hello.php                                         ][ON:false]  Hello Dolly
+PLUGIN [SLUG:mashsharer/mashshare.php                          ][ON:false]  Mashshare Share Buttons
+PLUGIN [SLUG:recent-posts-widget-with-thumbnails/recent-posts-widget-with-thumbnails.php][ON:true ]  Recent Posts Widget With Thumbnails
+--------------------------------------
+--------------------------------------
+
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00037]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+LOG-TIME[C:\xampp\htdocs\wp\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.02869]  MESSAGE:END RENDER PAGE
+STEP ACTION: "settpm"
+NEW TEMPLATE:default
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+LOG-TIME[C:\xampp\htdocs\wp\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.02291]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+STEP ACTION: "on-validate"
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+LOG-TIME[C:\xampp\htdocs\wp\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.01609]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00024]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery URL" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Recovery URL" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00398]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00139]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Subomain multisite installation in subfolder" [CLASS: DUPX_Validation_test_multisite_subfolder]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Subomain multisite installation in subfolder" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+LOG-TIME[DELTA:   0.14551]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00126]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00031]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Sufficient Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00053]  MESSAGE:TEST "Sufficient Disk Space" RESULT: good
+
+START TEST "Permissions" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.06296]  MESSAGE:TEST "Permissions" RESULT: passed
+
+START TEST "Configs files permissions" [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00104]  MESSAGE:TEST "Configs files permissions" RESULT: passed
+
+START TEST "Cpanel connection" [CLASS: DUPX_Validation_test_cpnl_connection]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Cpanel connection" RESULT: skip
+
+START TEST "Create Database User" [CLASS: DUPX_Validation_test_cpnl_new_user]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Create Database User" RESULT: skip
+
+START TEST "Host name check" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00027]  MESSAGE:TEST "Host name check" RESULT: passed
+
+START TEST "Verify Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.05256]  MESSAGE:TEST "Verify Host Connection" RESULT: passed
+
+START TEST "Database version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00440]  MESSAGE:TEST "Database version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Confirm Database Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.01400]  MESSAGE:TEST "Confirm Database Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Test User Table Privileges" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.33491]  MESSAGE:TEST "Test User Table Privileges" RESULT: passed
+
+START TEST "Test SHOW VARIABLES query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00136]  MESSAGE:TEST "Test SHOW VARIABLES query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Default Character set and Collation support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00281]  MESSAGE:TEST "Default Character set and Collation support" RESULT: passed
+
+START TEST "Check Character set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Check Character set and  Collation Capability" RESULT: passed
+
+START TEST "Check GTID mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00085]  MESSAGE:TEST "Check GTID mode" RESULT: passed
+
+START TEST "Table Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00169]  MESSAGE:TEST "Table Case Sensitivity" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+START TEST "User created cleanup" [CLASS: DUPX_Validation_test_db_user_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "User created cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 11:00:17
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+RESTORE BACKUP MODE_: false
+HOME URL NEW________: "http://localhost/wp"
+SITE URL NEW________: "http://localhost/wp"
+CONTENT URL NEW_____: "http://localhost/wp/wp-content"
+UPLOAD URL NEW______: "http://localhost/wp/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/wp/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/wp/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/xampp/htdocs/wp"
+SITE PATH NEW_______: "C:/xampp/htdocs/wp"
+CONTENT PATH NEW____: "C:/xampp/htdocs/wp/wp-content"
+UPLOAD PATH NEW_____: "C:/xampp/htdocs/wp/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/xampp/htdocs/wp/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/xampp/htdocs/wp/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+--------------------------------------
+PATHS MAPPING_______: "C:/xampp/htdocs/wp"
+--------------------------------------
+EXTRACTION FILTERS
+FILTER FOLDER: "dup-installer"
+FILTER FILE  : "alllo2_[HASH]_20210624222242_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING
+*** RESET CONFIG FILES END
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0080 sec. - Files processed: 2,112 of 7,004
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2112
+CHUNK COMPLETE - RUNTIME: 5.0471 sec. - Files processed: 3,747 of 7,004
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3747
+CHUNK COMPLETE - RUNTIME: 5.0150 sec. - Files processed: 5,286 of 7,004
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5286
+CHUNK COMPLETE - RUNTIME: 5.0289 sec. - Files processed: 6,797 of 7,004
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6797
+FILE EXTRACTION: done processing last file in list of 7508
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 11:00:44 - RUNTIME: 26.8607 sec. - Files processed: 7,004 of 7,004
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wp\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.24917]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [sparam_s2] START
+AJAX ACTION [sparam_s2] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 11:01:22
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+KEEP USERS__________: 0
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+NON-BREAKING SPACES_: false
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_entities]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_packages]
+TABLE "wp_e_submissions"________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_actions_log]
+TABLE "wp_e_submissions_values"_________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_e_submissions_values]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_options"______________________________________[ROWS:     185] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:    1790] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     311] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_term_relationships"___________________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_usermeta"_____________________________________[ROWS:      37] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_users]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.19 -- Build Server: 10.4.17
+FILE SIZE:	dup-database__[HASH].sql (1.93MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+CLEANUP ROUTINE START
+- Clean packages
+- Clean options table Array
+(
+    [0] => `option_name` LIKE "\_transient%"
+    [1] => `option_name` LIKE "\_site\_transient%"
+    [2] => `option_name` IN ("duplicator_pro_ui_view_state","duplicator_pro_package_active","duplicator_pro_settings")
+)
+
+Starting Cleanup Routine...
+CLEANUP ROUTINE COMPLETE
+ERRORS FOUND:	0
+DROPPED TABLES:	17
+RENAMED TABLES:	0
+QUERIES RAN:	46
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     1]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     5]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     0]
+TABLE "wp_e_submissions"________________________________[ROWS:     2]
+TABLE "wp_e_submissions_actions_log"____________________[ROWS:     2]
+TABLE "wp_e_submissions_values"_________________________[ROWS:     2]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   165]
+TABLE "wp_postmeta"_____________________________________[ROWS:  1790]
+TABLE "wp_posts"________________________________________[ROWS:   311]
+TABLE "wp_term_relationships"___________________________[ROWS:     7]
+TABLE "wp_term_taxonomy"________________________________[ROWS:     1]
+TABLE "wp_termmeta"_____________________________________[ROWS:     0]
+TABLE "wp_terms"________________________________________[ROWS:     1]
+TABLE "wp_usermeta"_____________________________________[ROWS:    37]
+TABLE "wp_users"________________________________________[ROWS:     2]
+
+DATABASE CACHE/TRANSITIENT [ROWS:    22]
+
+INSERT DATA RUNTIME: 1.2498 sec.
+STEP-2 COMPLETE @ 11:01:23 - RUNTIME: 1.2503 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wp\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.22091]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [sparam_s3] START
+AJAX ACTION [sparam_s3] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [init][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 11:03:29
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+blogname______________: "Falc0n"
+url_old_______________: "http://localhost/wordpress"
+url_new_______________: "http://localhost/wp"
+siteurl_______________: "http://localhost/wp"
+path_new______________: "C:/xampp/htdocs/wp"
+path_old______________: "C:/xampp/htdocs/wordpress"
+replace_mode__________: "legacy"
+empty_schedule_storage: true
+mode_chunking_________: 2
+wp_username___________: "Falc0n"
+wp_mail_______________: "youssbak.2015@gmail.com"
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+cross_search__________: true
+postguid______________: false
+fullsearch____________: false
+replaceMail___________: false
+maxSerializeStrlen____: 4000000
+auth_keys_and_salts___: false
+mu_replace____________: Array
+(
+)
+
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = ], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/wordpress" =======================> "C:/xampp/htdocs/wp"
+	SEARCH[urlnd]  2:"http://localhost/wordpress" ======================> "http://localhost/wp"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_entities"______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/wordpress" =======================> "C:/xampp/htdocs/wp"
+	SEARCH[urlnd]  2:"http://localhost/wordpress" ======================> "http://localhost/wp"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_submissions"________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/wordpress" =======================> "C:/xampp/htdocs/wp"
+	SEARCH[urlnd]  2:"http://localhost/wordpress" ======================> "http://localhost/wp"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions][0]
+
+EVALUATE TABLE: "wp_e_submissions_actions_log"____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/wordpress" =======================> "C:/xampp/htdocs/wp"
+	SEARCH[urlnd]  2:"http://localhost/wordpress" ======================> "http://localhost/wp"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions_actions_log][0]
+
+EVALUATE TABLE: "wp_e_submissions_values"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/wordpress" =======================> "C:/xampp/htdocs/wp"
+	SEARCH[urlnd]  2:"http://localhost/wordpress" ======================> "http://localhost/wp"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_submissions_values][0]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   165][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/wordpress" =======================> "C:/xampp/htdocs/wp"
+	SEARCH[urlnd]  2:"http://localhost/wordpress" ======================> "http://localhost/wp"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1790][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/wordpress" =======================> "C:/xampp/htdocs/wp"
+	SEARCH[urlnd]  2:"http://localhost/wordpress" ======================> "http://localhost/wp"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   311][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/wordpress" =======================> "C:/xampp/htdocs/wp"
+	SEARCH[urlnd]  2:"http://localhost/wordpress" ======================> "http://localhost/wp"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/wordpress" =======================> "C:/xampp/htdocs/wp"
+	SEARCH[urlnd]  2:"http://localhost/wordpress" ======================> "http://localhost/wp"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_relationships][0]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/wordpress" =======================> "C:/xampp/htdocs/wp"
+	SEARCH[urlnd]  2:"http://localhost/wordpress" ======================> "http://localhost/wp"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/wordpress" =======================> "C:/xampp/htdocs/wp"
+	SEARCH[urlnd]  2:"http://localhost/wordpress" ======================> "http://localhost/wp"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    37][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/wordpress" =======================> "C:/xampp/htdocs/wp"
+	SEARCH[urlnd]  2:"http://localhost/wordpress" ======================> "http://localhost/wp"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/wordpress" =======================> "C:/xampp/htdocs/wp"
+	SEARCH[urlnd]  2:"http://localhost/wordpress" ======================> "http://localhost/wp"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+--------------------------------------
+SCANNED:	Tables:17 	|	 Rows:2326 	|	 Cells:15274 
+UPDATED:	Tables:6 	|	 Rows:510 	|	 Cells:601 
+ERRORS:		0 
+RUNTIME:	1.396200 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/xampp/htdocs/wp/wp-config.php
+New htaccess file created:C:/xampp/htdocs/wp/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""wordpress""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG false
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+- Removed '0' schedule storage items
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+- New username 'Falc0n' was created successfully allong with MU usermeta.
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 11:03:31 - RUNTIME: 1.7667 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\wp\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.14324]  MESSAGE:END RENDER PAGE

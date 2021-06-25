@@ -1,0 +1,353 @@
+# Copyright (C) 2014
+# This file is distributed under the same license as the plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Recent Posts Widget With Thumbnails\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/recent-posts-widget-with-"
+"thumbnails\n"
+"POT-Creation-Date: 2020-10-19 23:40+0200\n"
+"PO-Revision-Date: 2021-02-21 20:24+0000\n"
+"Last-Translator: Martin Stehle <m.stehle@gmx.de>\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/form.php:48 includes/form.php:60
+msgid "A space will be added automatically between the label and the name."
+msgstr "Пространство будет добавлено автоматически между меткой и именем."
+
+#: includes/form.php:163
+msgid ""
+"Activate this option to eliminate possible confusion when the alternative "
+"texts and the post titles do not refer to each other. This can improve the "
+"accessibility of the post list. Do not activate this option if the post "
+"titles are hidden."
+msgstr ""
+"Активируйте эту опцию, чтобы избежать возможной путаницы, когда "
+"альтернативные тексты и названия должностей не совпадают. Это может улучшить "
+"доступ к списку рассылки. Не активируйте эту опцию, если заголовки сообщений "
+"скрыты."
+
+#: includes/form.php:146
+msgid "Alt text of the default thumbnail:"
+msgstr "Альтернативный текст для эскиза по умолчанию:"
+
+#: recent-posts-widget-with-thumbnails.php:71
+msgid "By"
+msgstr "От"
+
+#: includes/form.php:104
+msgid ""
+"By default, the featured image of the post is used as long as the next "
+"checkboxes do not specify anything different."
+msgstr ""
+"По умолчанию выбранное изображение сообщения используется до тех пор, пока "
+"следующие флажки не указывают ничего другого."
+
+#: includes/form.php:98
+#, php-format
+msgid ""
+"Click on the categories with pressed CTRL key to select multiple categories. "
+"If &#8220;%s&#8221; was selected then other selections will be ignored."
+msgstr ""
+"Нажмите на категории с нажатой клавишей CTRL, чтобы выбрать несколько "
+"категорий. Из &#171;%s&#187; была выбрана, то другой выбор будет "
+"проигнорирован."
+
+#: includes/form.php:35
+msgid "Do not show post title?"
+msgstr "Не показывать заголовок поста?"
+
+#: includes/form.php:26
+msgid "Do not show sticky posts?"
+msgstr "Не показывать статьи, которые нужно хранить выше?"
+
+#: includes/form.php:17
+msgid "Do not show the current post?"
+msgstr "Не показывать текущий пост?"
+
+#: includes/form.php:179
+msgid "Do you like the plugin?"
+msgstr "Понравился ли плагин?"
+
+#: recent-posts-widget-with-thumbnails.php:766
+msgid "Error on listing categories"
+msgstr "Ошибка в категории листинга"
+
+#: includes/form.php:169
+msgid ""
+"For developers: If checked you can set CSS rules for each list item on base "
+"of the assigned categories."
+msgstr ""
+"Для разработчиков: если флажок установлен, вы можете установить правила CSS "
+"для каждого элемента списка на основе назначенных категорий."
+
+#: includes/form.php:124
+msgid "Height of thumbnail"
+msgstr "Высота миниатюры"
+
+#. URI of the plugin
+msgid "http://wordpress.org/plugins/recent-posts-widget-with-thumbnails/"
+msgstr "http://wordpress.org/plugins/recent-posts-widget-with-thumbnails/"
+
+#. Author URI of the plugin
+msgid ""
+"https://www.kybernetik-services.com/?"
+"utm_source=wordpress_org&utm_medium=plugin&utm_campaign=recent-posts-widget-"
+"with-thumbnails&utm_content=author"
+msgstr ""
+"https://www.kybernetik-services.com/?"
+"utm_source=wordpress_org&utm_medium=plugin&utm_campaign=recent-posts-widget-"
+"with-thumbnails&utm_content=author"
+
+#: includes/form.php:129
+msgid ""
+"If activated the given width is used to determine the height of the "
+"thumbnail automatically. This option also supports responsive web design."
+msgstr ""
+"Если флажок установлен данная ширина используется для определения высоты "
+"миниатюры автоматически. Эта опция также поддерживает адаптивный веб-дизайн."
+
+#: includes/form.php:27
+msgid "If activated the option to keep sticky posts on top will be ignored."
+msgstr ""
+"Если флажок установлен, чтобы сохранить липкие сообщения сверху, будет "
+"проигнорирован."
+
+#: includes/form.php:23
+msgid ""
+"If activated the options to hide sticky posts and to keep them on top will "
+"be ignored."
+msgstr ""
+"Если активировать опции, чтобы скрыть липкие сообщения и сохранить их сверху,"
+" они будут проигнорированы."
+
+#: includes/form.php:173 includes/form.php:177
+msgid "If activated this option applies to all instances of this widget."
+msgstr ""
+"При активации этот параметр применяется ко всем экземплярам этого виджета."
+
+#: includes/form.php:87
+msgid ""
+"If activated, the excerpts are created only by the excerpt fields. If both "
+"Ignore checkboxes are activated no excerpts are displayed in the list."
+msgstr ""
+"Если активирована, то фрагменты создаются только по полям фрагментов. Если "
+"установлены оба флажка Игнорировать, выдержки из списка не отображаются."
+
+#: includes/form.php:118
+#, php-format
+msgid ""
+"If you use a specified size the following sizes will be taken, otherwise "
+"they will be ignored and the selected dimension as stored in %s will be used:"
+msgstr ""
+"При использовании указанного размера будут приняты следующие размеры, в "
+"противном случае они будут игнорироваться, и выбранное измерение, которое "
+"хранится в %s будет использоваться:"
+
+#: includes/form.php:141
+msgid "Ignore all thumbnails and always use only the default thumbnail?"
+msgstr ""
+"Игнорировать все миниатюры и всегда использовать только миниатюры по "
+"умолчанию?"
+
+#: includes/form.php:86
+msgid "Ignore post content as excerpt source?"
+msgstr "Игнорировать содержание сообщений в качестве источника выдержек?"
+
+#: includes/form.php:82
+msgid "Ignore post excerpt field as excerpt source?"
+msgstr "Игнорировать поле выдержки в качестве источника выдержки?"
+
+#: recent-posts-widget-with-thumbnails.php:73
+msgctxt "In {categories}"
+msgid "In"
+msgstr "В"
+
+#: includes/form.php:30
+msgid "Keep sticky posts on top of the list?"
+msgstr "Держите липкие сообщения в верхней части списка?"
+
+#. Author of the plugin
+msgid "Kybernetik Services"
+msgstr "Kybernetik Services"
+
+#: includes/form.php:46
+msgid "Label for authors:"
+msgstr "Этикетка для авторов:"
+
+#: includes/form.php:58
+msgid "Label for categories:"
+msgstr "Этикет для категорий:"
+
+#: recent-posts-widget-with-thumbnails.php:112
+msgid ""
+"List of your site&#8217;s most recent posts, with clickable title and "
+"thumbnails."
+msgstr ""
+"Список последних сообщений вашего сайта, с заголовком интерактивными и "
+"иконками."
+
+#: includes/form.php:36
+msgid ""
+"Make sure you set a default thumbnail for posts without a thumbnail, "
+"otherwise there will be no link."
+msgstr ""
+"Убедитесь, что вы установили эскиз по умолчанию для сообщений без эскиза, в "
+"противном случае не будет никакой связи."
+
+#: includes/form.php:72
+msgid "Maximum length of excerpt"
+msgstr "Максимальная длина анонса"
+
+#: includes/form.php:38
+msgid "Maximum length of post title"
+msgstr "Максимальная длина заголовка сообщения"
+
+#: includes/form.php:176
+msgid "No CSS generation at all, neither inline CSS nor a CSS file?"
+msgstr "Не генерировать CSS вообще, ни встроенный CSS, ни CSS-файл?"
+
+#: includes/form.php:83
+msgid ""
+"Normally the widget takes the excerpt from the text of the excerpt field "
+"unchanged and if there is no text it creates the excerpt from the post "
+"content automatically. If this option is activated the excerpt is created "
+"from the post content only."
+msgstr ""
+"Обычно виджет выводит выдержку из текста поля выдержки без изменений, и если "
+"текст отсутствует, он автоматически создает выдержку из постсообщения. Если "
+"этот параметр активирован, выдержка создается только из содержимого "
+"сообщения."
+
+#: includes/form.php:162
+msgid "Omit alternative texts of the thumbnails?"
+msgstr "Опустить альтернативные тексты эскизов?"
+
+#: includes/form.php:11
+msgid "Open post links in new windows?"
+msgstr "Открывать ссылку в новом окне?"
+
+#: includes/form.php:179
+msgid "Please rate it at wordpress.org!"
+msgstr "Пожалуйста, оцените его на wordpress.org!"
+
+#: includes/form.php:172
+msgid "Print inline CSS instead of creating a CSS file?"
+msgstr "Печать inline CSS вместо создания файла CSS?"
+
+#: includes/form.php:168
+msgid "Print slugs of post categories in class attribute of LI elements?"
+msgstr "Печатать пули почтовых категорий в атрибуте класса элементов LI?"
+
+#. Name of the plugin
+msgid "Recent Posts Widget With Thumbnails"
+msgstr "Recent Posts Widget With Thumbnails"
+
+#: recent-posts-widget-with-thumbnails.php:78
+#: recent-posts-widget-with-thumbnails.php:111
+msgid "Recent Posts With Thumbnails"
+msgstr "Последние записи с эскизами"
+
+#: includes/form.php:56
+msgid "Set post category names as links, pointing to their archives?"
+msgstr "Укажите имена категорий в качестве ссылок, указывая на их архивы?"
+
+#: includes/form.php:79
+msgid "Set signs after excerpt as a link to the post?"
+msgstr "Установить знаки после выдержки в качестве ссылки на сообщение?"
+
+#: includes/form.php:70
+msgid "Show excerpt?"
+msgstr "Показать анонс?"
+
+#: includes/form.php:92
+msgid "Show number of comments?"
+msgstr "Показать количество комментариев?"
+
+#: includes/form.php:22
+msgid "Show only sticky posts?"
+msgstr "Список только липких сообщений?"
+
+#: includes/form.php:44
+msgid "Show post author?"
+msgstr "Показать автора поста?"
+
+#: includes/form.php:53
+msgid "Show post categories?"
+msgstr "Показать категории поста?"
+
+#: includes/form.php:65
+msgid "Show post date?"
+msgstr "Показать дату поста?"
+
+#: includes/form.php:14
+msgid "Show posts in random order?"
+msgstr "Показать сообщения в произвольном порядке?"
+
+#: includes/form.php:96
+msgid "Show posts of selected categories only?"
+msgstr "Показать сообщения только выбранных категорий?"
+
+#: includes/form.php:103
+msgid "Show thumbnail?"
+msgstr "Показать эскиз?"
+
+#: includes/form.php:75
+msgid "Signs after excerpt"
+msgstr "Признаки после анонса"
+
+#: includes/form.php:106
+msgid "Size of thumbnail"
+msgstr "Размер эскиза"
+
+#. Description of the plugin
+msgid ""
+"Small and fast plugin to display in the sidebar a list of linked titles and "
+"thumbnails of the most recent postings"
+msgstr ""
+
+#: includes/form.php:108
+msgid "Specified width and height"
+msgstr "Заданной ширины и высоты"
+
+#: includes/form.php:5 includes/form.php:48 includes/form.php:60
+msgid "This field can be empty."
+msgstr "Это поле может быть пустым."
+
+#: includes/form.php:132
+msgid "Try to use the post's first image if post has no featured image?"
+msgstr ""
+"Использовать первое изображение поста, если сообщение не показал изображение?"
+
+#: includes/form.php:143
+msgid "URL of default thumbnail (start with http://)"
+msgstr "Адрес эскиза по умолчанию (начать с http://)"
+
+#: includes/form.php:128
+msgid "Use aspect ratios of original images?"
+msgstr "Использовать форматное соотношение исходных изображений?"
+
+#: includes/form.php:138
+msgid "Use default thumbnail if no image could be determined?"
+msgstr ""
+"Использовать по умолчанию эскиз, если никакое изображение не может быть "
+"определена?"
+
+#: includes/form.php:135
+msgid "Use first image only, ignore featured image?"
+msgstr ""
+"Использовать только первое изображение, игнорировать признакам изображение?"
+
+#: includes/form.php:121
+msgid "Width of thumbnail"
+msgstr "Ширина эскиза"

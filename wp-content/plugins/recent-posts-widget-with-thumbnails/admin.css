@@ -1,0 +1,6 @@
+/* categories selection box */
+#wpcontent form div.widget-content p select.rpwwt-cat-select {
+	width: 100%; /* set to full width */
+	max-width: 100%; /* maximize to full width if entries are longer than 100% width */
+	height: auto; /* overwrite height set by responsive WP admin css */
+}

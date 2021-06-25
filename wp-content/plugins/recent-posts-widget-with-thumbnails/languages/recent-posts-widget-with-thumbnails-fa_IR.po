@@ -1,0 +1,345 @@
+# Copyright (C) 2015
+# This file is distributed under the same license as the plugin package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Recent Posts Widget With Thumbnails\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/plugins/recent-posts-widget-with-"
+"thumbnails\n"
+"POT-Creation-Date: 2020-10-19 23:42+0200\n"
+"PO-Revision-Date: 2021-02-21 20:23+0000\n"
+"Last-Translator: \n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html_e;esc_html__;esc_attr_e;"
+"esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Loco-Version: 2.5.0; wp-5.6.1"
+
+#: includes/form.php:48 includes/form.php:60
+msgid "A space will be added automatically between the label and the name."
+msgstr "یک فضا به طور خودکار بین برچسب و نام اضافه خواهد شد."
+
+#: includes/form.php:163
+msgid ""
+"Activate this option to eliminate possible confusion when the alternative "
+"texts and the post titles do not refer to each other. This can improve the "
+"accessibility of the post list. Do not activate this option if the post "
+"titles are hidden."
+msgstr ""
+"فعال کردن این گزینه برای از بین بردن سردرگمی ممکن است زمانی که متون جایگزین "
+"و عناوین به یکدیگر مراجعه نمی کنند. این می تواند دسترسی لیست را بهبود بخشد. "
+"در صورت پنهان بودن عناوین این گزینه را فعال نکنید."
+
+#: includes/form.php:146
+msgid "Alt text of the default thumbnail:"
+msgstr "متن Alt تصویر بندانگشتی پیش فرض:"
+
+#: recent-posts-widget-with-thumbnails.php:71
+msgid "By"
+msgstr "توسط"
+
+#: includes/form.php:104
+msgid ""
+"By default, the featured image of the post is used as long as the next "
+"checkboxes do not specify anything different."
+msgstr ""
+"به طور پیش فرض، تصویر برجسته ای از پست تا زمانی که کادرهای بعدی مشخص نکند "
+"چیزی متفاوت از آن استفاده می شود."
+
+#: includes/form.php:98
+#, php-format
+msgid ""
+"Click on the categories with pressed CTRL key to select multiple categories. "
+"If &#8220;%s&#8221; was selected then other selections will be ignored."
+msgstr ""
+"برای انتخاب چند دسته، کلید CTRL را نگه دارید. اگر &#171;%s&#187; انتخاب شده "
+"باشد، انتخابهای دیگر نادیده گرفته میشوند."
+
+#: includes/form.php:35
+msgid "Do not show post title?"
+msgstr "عنوان نوشته نمایش داده نشود؟"
+
+#: includes/form.php:26
+msgid "Do not show sticky posts?"
+msgstr "فهرست های چسبناکی را لیست نکنید؟"
+
+#: includes/form.php:17
+msgid "Do not show the current post?"
+msgstr "نوشته ی فعلی نمایش داده نشود؟"
+
+#: includes/form.php:179
+msgid "Do you like the plugin?"
+msgstr "از این افزونه راضی هستید؟"
+
+#: recent-posts-widget-with-thumbnails.php:766
+msgid "Error on listing categories"
+msgstr "خطا در دسته بندی کنید"
+
+#: includes/form.php:169
+msgid ""
+"For developers: If checked you can set CSS rules for each list item on base "
+"of the assigned categories."
+msgstr ""
+"برای توسعه دهندگان: در صورت انتخاب، می توانید قوانین CSS را برای هر مورد "
+"لیست بر اساس دسته های تعیین شده تنظیم کنید."
+
+#: includes/form.php:124
+msgid "Height of thumbnail"
+msgstr "ارتفاع تصویر بندانگشتی"
+
+#. URI of the plugin
+msgid "http://wordpress.org/plugins/recent-posts-widget-with-thumbnails/"
+msgstr "http://wordpress.org/plugins/recent-posts-widget-with-thumbnails/"
+
+#. Author URI of the plugin
+msgid ""
+"https://www.kybernetik-services.com/?"
+"utm_source=wordpress_org&utm_medium=plugin&utm_campaign=recent-posts-widget-"
+"with-thumbnails&utm_content=author"
+msgstr ""
+"https://www.kybernetik-services.com/?"
+"utm_source=wordpress_org&utm_medium=plugin&utm_campaign=recent-posts-widget-"
+"with-thumbnails&utm_content=author"
+
+#: includes/form.php:129
+msgid ""
+"If activated the given width is used to determine the height of the "
+"thumbnail automatically. This option also supports responsive web design."
+msgstr ""
+"اگر انتخاب شده باشد، پهنای تصویر مورد استفاده قرار میگیرد و ارتفاع بر اساس "
+"پهنا به طور اتوماتیک تعیین میشود. این گزینه برای طراحی واکنشگرا (ریسپانسیو) "
+"مفید است."
+
+#: includes/form.php:27
+msgid "If activated the option to keep sticky posts on top will be ignored."
+msgstr ""
+"اگر گزینه ای برای نگه داشتن پست های چسبنده در بالا فعال شود، نادیده گرفته می "
+"شود."
+
+#: includes/form.php:23
+msgid ""
+"If activated the options to hide sticky posts and to keep them on top will "
+"be ignored."
+msgstr ""
+"اگر گزینه هایی برای مخفی کردن پست های چسبنده و نگه داشتن آنها در بالای صفحه "
+"فعال شود، نادیده گرفته می شود."
+
+#: includes/form.php:173 includes/form.php:177
+msgid "If activated this option applies to all instances of this widget."
+msgstr "در صورت فعال بودن این گزینه برای همه موارد این ویجت اعمال می شود."
+
+#: includes/form.php:87
+msgid ""
+"If activated, the excerpts are created only by the excerpt fields. If both "
+"Ignore checkboxes are activated no excerpts are displayed in the list."
+msgstr ""
+"در صورت فعال بودن، گزیده ها فقط توسط زمینه های گزیده شده ایجاد می شوند. اگر "
+"هرکدام از جعبه ها نادیده گرفته شده فعال شوند هیچ گزیده ای در فهرست نمایش "
+"داده نمی شود."
+
+#: includes/form.php:118
+#, php-format
+msgid ""
+"If you use a specified size the following sizes will be taken, otherwise "
+"they will be ignored and the selected dimension as stored in %s will be used:"
+msgstr ""
+"اگر از اندازه تعیین شده استفاده کنید، اندازه های زیر مورد استفاده قرار "
+"میگیرند، در غیر اینصورت نادیده گرفته شده و اندازه های ذخیره شده در %s "
+"استفاده میشود. "
+
+#: includes/form.php:141
+msgid "Ignore all thumbnails and always use only the default thumbnail?"
+msgstr ""
+"نادیده گرفتن همه ریز عکسها و همیشه فقط از تصویر بند پیش فرض استفاده کنید ؟"
+
+#: includes/form.php:86
+msgid "Ignore post content as excerpt source?"
+msgstr "محتوای پست را به عنوان منبع گسسته نادیده بگیرید؟"
+
+#: includes/form.php:82
+msgid "Ignore post excerpt field as excerpt source?"
+msgstr "عنوان گزینش پست را به عنوان منبع گسسته نادیده بگیرید؟"
+
+#: recent-posts-widget-with-thumbnails.php:73
+msgctxt "In {categories}"
+msgid "In"
+msgstr "در"
+
+#: includes/form.php:30
+msgid "Keep sticky posts on top of the list?"
+msgstr "نوشته های چسبان در بالای لیست نگه داشته شوند؟"
+
+#. Author of the plugin
+msgid "Kybernetik Services"
+msgstr "خدمات سایبرنتیک"
+
+#: includes/form.php:46
+msgid "Label for authors:"
+msgstr "برچسب برای نویسندگان:"
+
+#: includes/form.php:58
+msgid "Label for categories:"
+msgstr "برچسب برای دسته بندی ها:"
+
+#: recent-posts-widget-with-thumbnails.php:112
+msgid ""
+"List of your site&#8217;s most recent posts, with clickable title and "
+"thumbnails."
+msgstr "فهرست سایت شما ارسال جدید، با عنوان قابل کلیک و عکسها."
+
+#: includes/form.php:36
+msgid ""
+"Make sure you set a default thumbnail for posts without a thumbnail, "
+"otherwise there will be no link."
+msgstr ""
+"مطمئن شوید که تصویر بندانگشتی پیشفرض برای نوشته های بدون تصویر بندانگشتی "
+"انتخاب کرده اید. در غیر اینصورت لینکی نمایش داده نخواهد شد."
+
+#: includes/form.php:72
+msgid "Maximum length of excerpt"
+msgstr "حداکثر طول خلاصه متن"
+
+#: includes/form.php:38
+msgid "Maximum length of post title"
+msgstr "حداکثر طول عنوان"
+
+#: includes/form.php:176
+msgid "No CSS generation at all, neither inline CSS nor a CSS file?"
+msgstr "هیچ کدام از CSS ها، نه CSS درون خطی و نه یک فایل CSS؟"
+
+#: includes/form.php:83
+msgid ""
+"Normally the widget takes the excerpt from the text of the excerpt field "
+"unchanged and if there is no text it creates the excerpt from the post "
+"content automatically. If this option is activated the excerpt is created "
+"from the post content only."
+msgstr ""
+"به طور معمول، ویجت متن را از متن زمینه گزاری بدون تغییر تغییر می دهد و اگر "
+"متن وجود نداشته باشد، گزاره ای از محتوای پست به صورت خودکار ایجاد می شود. "
+"اگر این گزینه فعال باشد، گزیده ای از محتوای پست تنها ایجاد می شود."
+
+#: includes/form.php:162
+msgid "Omit alternative texts of the thumbnails?"
+msgstr "حذف متون جایگزین از بندانگشتی؟"
+
+#: includes/form.php:11
+msgid "Open post links in new windows?"
+msgstr "باز کردن لینک ها در پنجره جدید؟"
+
+#: includes/form.php:179
+msgid "Please rate it at wordpress.org!"
+msgstr "لطفا در wordpress.org امتیاز دهید!"
+
+#: includes/form.php:172
+msgid "Print inline CSS instead of creating a CSS file?"
+msgstr "به جای ایجاد یک فایل CSS، CSS درون خطی چاپ می شود؟"
+
+#: includes/form.php:168
+msgid "Print slugs of post categories in class attribute of LI elements?"
+msgstr "علامت های چاپ دسته بندی های پست در کلاس ویژگی عناصر LI؟"
+
+#. Name of the plugin
+msgid "Recent Posts Widget With Thumbnails"
+msgstr "Recent Posts Widget With Thumbnails"
+
+#: recent-posts-widget-with-thumbnails.php:78
+#: recent-posts-widget-with-thumbnails.php:111
+msgid "Recent Posts With Thumbnails"
+msgstr "نوشته های اخیر با تصویر بندانگشتی"
+
+#: includes/form.php:56
+msgid "Set post category names as links, pointing to their archives?"
+msgstr "نام دسته بندی پست را به عنوان لینک، اشاره به آرشیو خود را؟"
+
+#: includes/form.php:79
+msgid "Set signs after excerpt as a link to the post?"
+msgstr "نشانه ها را بعد از گزینش به عنوان یک پیوند به پست تنظیم کنید؟"
+
+#: includes/form.php:70
+msgid "Show excerpt?"
+msgstr "نمایش خلاصه متن"
+
+#: includes/form.php:92
+msgid "Show number of comments?"
+msgstr "نمایش تعداد نظرات"
+
+#: includes/form.php:22
+msgid "Show only sticky posts?"
+msgstr "لیست پست های چسبنده فقط فهرست"
+
+#: includes/form.php:44
+msgid "Show post author?"
+msgstr "نمایش پست نویسنده؟"
+
+#: includes/form.php:53
+msgid "Show post categories?"
+msgstr "نمایش پست ها دسته بندی ها؟"
+
+#: includes/form.php:65
+msgid "Show post date?"
+msgstr "نمایش تاریخ نوشته"
+
+#: includes/form.php:14
+msgid "Show posts in random order?"
+msgstr "نمایش پست به صورت تصادفی."
+
+#: includes/form.php:96
+msgid "Show posts of selected categories only?"
+msgstr "نمایش نوشته ها فقط از دسته های انتخاب شده؟"
+
+#: includes/form.php:103
+msgid "Show thumbnail?"
+msgstr "نمایش تصویر بند انگشتی"
+
+#: includes/form.php:75
+msgid "Signs after excerpt"
+msgstr "نشانه ی بعد از متن خلاصه"
+
+#: includes/form.php:106
+msgid "Size of thumbnail"
+msgstr "اندازه تصویر بندانگشتی"
+
+#. Description of the plugin
+msgid ""
+"Small and fast plugin to display in the sidebar a list of linked titles and "
+"thumbnails of the most recent postings"
+msgstr ""
+
+#: includes/form.php:108
+msgid "Specified width and height"
+msgstr "عرض و ارتفاع تعیین شده"
+
+#: includes/form.php:5 includes/form.php:48 includes/form.php:60
+msgid "This field can be empty."
+msgstr "این فیلد می تواند خالی باشد"
+
+#: includes/form.php:132
+msgid "Try to use the post's first image if post has no featured image?"
+msgstr "اگر تصویر شاخص وجود نداشت، از اولین تصویر نوشته استفاده شود؟"
+
+#: includes/form.php:143
+msgid "URL of default thumbnail (start with http://)"
+msgstr "آدرس تصویر بندانگشتی پیشفرض (با http:// شروع شود)"
+
+#: includes/form.php:128
+msgid "Use aspect ratios of original images?"
+msgstr "نسبت تصویر اصلی حفظ شود؟"
+
+#: includes/form.php:138
+msgid "Use default thumbnail if no image could be determined?"
+msgstr "استفاده از تصویر پیشفرض اگر تصویری پیدا نشد؟"
+
+#: includes/form.php:135
+msgid "Use first image only, ignore featured image?"
+msgstr "استفاده از اولین تصویر نوشته، نادیده گرفتن تصویر شاخص؟"
+
+#: includes/form.php:121
+msgid "Width of thumbnail"
+msgstr "عرض تصویر بندانگشتی"
